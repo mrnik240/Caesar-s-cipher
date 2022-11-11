@@ -3,7 +3,7 @@ alphabet_rus_upper = "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫ
 alphabet_eng = "abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz"
 alphabet_eng_upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZ"
 text = list(input("Введите предложение для шифрования...\t"))
-bias = int(input("Введите шаг...\t"))
+bias = int(input("Введите шаг..."))
 
 for i in range(0, len(text)):
     if text[i].islower():
