@@ -5,7 +5,7 @@ alphabet_eng_upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZ"
 text = list(input("Введите предложение для шифрования...\t"))
 bias = int(input("Введите шаг..."))
 
-for i in range(0, len(text)):
+for i in range(len(text)):
     if text[i].islower():
         if text[i].isascii():
             n = alphabet_eng.find(text[i])
